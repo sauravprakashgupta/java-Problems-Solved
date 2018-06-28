@@ -8,7 +8,7 @@ import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-public class Extra {
+public class Directory {
     public static void main(String a[]){
         StringBuilder sb = new StringBuilder();
         String strLine = "";
