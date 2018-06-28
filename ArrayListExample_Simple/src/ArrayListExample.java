@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Extra{
+public class ArrayListExample{
     public static void main(String[] args) {
         ArrayList<String> colors = new ArrayList<>();
         Scanner input = new Scanner(System.in);
