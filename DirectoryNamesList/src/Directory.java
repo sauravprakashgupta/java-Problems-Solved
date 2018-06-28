@@ -1,9 +1,7 @@
-//Java Exercises: Get list of all file/directory names
-
 import java.io.File;
 import java.util.Date;
 
-public class Extra {
+public class Directory {
     public static void main(String a[])
     {
         File file = new File("E:\\software\\javaFiles\\");
@@ -12,4 +10,4 @@ public class Extra {
             System.out.println(name);
         }
     }
-} 
+}
