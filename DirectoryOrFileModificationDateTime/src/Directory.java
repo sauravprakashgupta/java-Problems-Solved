@@ -3,7 +3,7 @@
 import java.io.File;
 import java.util.Date;
 
-public class Extra {
+public class Directory {
     public static void main(String[] args) {
         File file = new File("C:\\Users\\SouravG\\Downloads\\saurav\\testFoleder\\testDoc.txt");
         Date date = new Date(file.lastModified());
