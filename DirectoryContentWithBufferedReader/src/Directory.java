@@ -1,3 +1,5 @@
+//Using Buffered reader which will append line by line based on line read
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -5,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.FileInputStream;
 import java.io.FileReader;
 
-public class Extra {
+public class Directory {
 
     public static void main(String a[]){
         StringBuilder sb = new StringBuilder();
