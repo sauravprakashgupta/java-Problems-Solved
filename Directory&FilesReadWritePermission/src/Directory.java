@@ -3,7 +3,7 @@
 
 
 import java.io.File;
-public class Extra {
+public class Directory {
     public static void main(String[] args) {
         // Create a File object
         File my_file_dir = new File("C:\\Users\\SouravG\\Downloads\\saurav\\testFoleder\\testDoc.txt");
