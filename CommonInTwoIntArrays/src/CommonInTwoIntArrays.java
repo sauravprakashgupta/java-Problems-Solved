@@ -2,7 +2,7 @@ import com.sun.deploy.util.ArrayUtil;
 
 import java.util.Scanner;
 import java.util.Arrays;
-public class Extra {
+public class CommonInTwoIntArrays {
 
     public static void main(String[] args) {
         int[] intArr1 = {12,43,65,24,64,24,677,95,11,12,677,88,64};
