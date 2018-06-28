@@ -1,10 +1,11 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class Extra {
+public class NumSearchArray {
 
     public static void main(String[] args) {
         int[] intArr = new int[5];
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter 5 numbers one by one");
         for(int x=0;x<intArr.length;x++){
             intArr[x] = input.nextInt();
         }
