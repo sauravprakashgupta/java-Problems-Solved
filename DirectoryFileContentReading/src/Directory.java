@@ -5,7 +5,7 @@ import java.io.InputStream;
 
 // Reading contents from a file into byte array.
 //You can also read file, byt the output will be in encrypted form
-public class Extra {
+public class Directory {
     public static void main(String a[]){
         String file_name = "C:\\Users\\SouravG\\Downloads\\credentials.csv";
         InputStream fins = null;
