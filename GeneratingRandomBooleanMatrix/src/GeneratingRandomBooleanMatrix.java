@@ -1,10 +1,11 @@
 import java.util.InputMismatchException;
-import java.util.Scanner;
-import java.util.Random;
-public class Extra {
+        import java.util.Scanner;
+        import java.util.Random;
+public class GeneratingRandomBooleanMatrix {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = 1;
+        System.out.println("Enter number : ");
         try{
             n = input.nextInt();
         }
