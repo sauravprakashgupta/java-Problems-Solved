@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Extra {
+public class Directory {
 
     public static void main(String a[]){
         BufferedReader br = null;
