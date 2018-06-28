@@ -1,16 +1,17 @@
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
-public class Extra {
+        import java.util.Arrays;
+        import java.util.Scanner;
+public class DynamicArrayLengthInput {
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
         ArrayList<String> arrayList = new ArrayList<>();
         String inputData;
         String quit;
+        System.out.println("To quit type quit or exit ");
         boolean isQuit = false;
         do{
-            System.out.println("Enter : ");
+            System.out.print("Enter : ");
             isQuit =false;
             inputData = input.nextLine();
 
