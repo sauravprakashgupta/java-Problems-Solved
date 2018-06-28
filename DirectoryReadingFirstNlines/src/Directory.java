@@ -9,7 +9,7 @@ import java.io.FileInputStream;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Extra {
+public class Directory {
 
     public static void main(String a[]){
         BufferedReader br = null;
