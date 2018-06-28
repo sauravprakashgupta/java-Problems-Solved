@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Extra {
+public class StringCompare {
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
@@ -13,10 +13,10 @@ public class Extra {
         isContain = inputString1.contains(inputString2);
 
         if (isContain==true){
-            System.out.println("yes");
+            System.out.println("yes, same strings");
         }
         else{
-            System.out.println("no");
+            System.out.println("no, different strings");
         }
 
     }
