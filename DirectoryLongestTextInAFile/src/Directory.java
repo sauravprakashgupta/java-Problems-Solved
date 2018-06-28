@@ -4,9 +4,9 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-public class Extra {
+public class Directory {
     public static void main(String [ ] args) throws FileNotFoundException {
-        new Extra().findLongestWords();
+        new Directory().findLongestWords();
     }
 
     public String findLongestWords() throws FileNotFoundException {
