@@ -2,7 +2,7 @@
 
 import java.io.File;
 import java.io.FilenameFilter;
-public class Extra {
+public class Directory {
     public static void main(String a[]){
         File file = new File("C:\\Users\\SouravG\\Downloads");
         String[] list = file.list(new FilenameFilter() {
@@ -19,4 +19,4 @@ public class Extra {
             System.out.println(f);
         }
     }
-} 
+}
