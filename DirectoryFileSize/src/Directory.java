@@ -2,7 +2,7 @@
 
 import java.io.File;
 
-public class Extra {
+public class Directory {
 
     public static void main(String[] args)
     {
