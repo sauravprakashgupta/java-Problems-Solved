@@ -5,14 +5,17 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.FileReader;
 
-public class Extra {
+public class Directory {
 
     public static void main(String a[]){
         StringBuilder sb = new StringBuilder();
         String strLine = "";
         String str_data = "";
         try {
+            System.out.println("Connecting ...");
             BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\SouravG\\Downloads\\saurav\\testFoleder\\testDoc.txt"));
+            System.out.println("Connected");
+            System.out.println("Reading ...");
             while (strLine != null)
             {
                 if (strLine == null)
@@ -20,7 +23,9 @@ public class Extra {
                 str_data += strLine;
                 strLine = br.readLine();
             }
+            System.out.println("Wait... writing");
             System.out.println(str_data);
+            System.out.println("DONE");
             br.close();
         } catch (FileNotFoundException e) {
             System.err.println("File not found");
