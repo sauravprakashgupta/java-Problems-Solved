@@ -1,31 +1,12 @@
-import java.util.InputMismatchException;
 import com.sun.deploy.util.ArrayUtil;
 
 import java.util.Scanner;
 import java.util.Arrays;
-public class Extra {
+public class BubbleSort {
 
     public static void main(String[] args) {
-        boolean flag = true;
-        int bubbleRange = 0;
-        Scanner input = new Scanner(System.in);
-        System.out.println("Number of elements you want to add in bubble sort");
-        try{
-            bubbleRange = input.nextInt();
-        }
-        catch (InputMismatchException ex){
-            System.out.println("Only Numbers are allowed, giving default value of 1");
-            bubbleRange = 1;
-        }
-
-        while(flag = true){
-            try{
-
-            }
-
-        }
         int[] intArr = {212,34,5,6,67,8889,954,437,954,112,412};
-
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Array before BubbleSort");
         printArr(intArr);
