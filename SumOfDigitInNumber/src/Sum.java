@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Random;
-public class Extra {
+public class Sum {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter Number");
