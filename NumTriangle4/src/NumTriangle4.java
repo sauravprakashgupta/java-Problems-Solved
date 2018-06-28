@@ -1,6 +1,6 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
-public class Extra {
+public class NumTriangle4 {
 
     public static void main(String[] args) {
         int sum = 0;
