@@ -1,6 +1,3 @@
-/**
- * Created by SouravG on 29-06-2018.
- */
 public class MainClass {
     public static void main(String[] args) {
         BaseClass[] myObject = new BaseClass[2];
