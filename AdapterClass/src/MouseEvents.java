@@ -1,32 +1,33 @@
-import javax.swing.*;
 import java.awt.*;
-import java.awt.event.MouseAdapter;
+import java.awt.event.*;
+import javax.swing.*;
+
 
 public class MouseEvents extends JFrame{
     private String details;
-    private JLabel statusBar;
+    private JLabel statusbar;
 
     public MouseEvents(){
-        super("Title");
-
-        statusBar = new JLabel("This is default");
-        add(statusBar, BorderLayout.SOUTH);
-        addMouseListener(new MouseClass());
+        super("The Title");
+        statusbar = new JLabel("This is a default : ");
+        add(statusbar,BorderLayout.SOUTH);
+        addMouseListener(new Mouseclass());
     }
 
-    private class MouseClass extends MouseAdapter{
-        public void mouseClicked(MouseEvents event){
-            details = String.format("You clicked %d ", event.getClickCount);
+    private class Mouseclass extends MouseAdapter{
+        public void mouseClicked(MouseEvent event){
+            details = String.format("You Clicked %d number of times", event.getClickCount());
 
-            if(event.isMetaDown())
-                details += " with right mouse Button";
-            else if(event.isAltDown())
-                details +=" Scroll wheel - center mouse button";
-            else
-                details += " with left mouse button";
-
-            statusBar.setText(details);
-
+            if(event.isMetaDown()){
+                details += " you are using RIGHT click";
+            }
+            else if(event.isAltDown()){
+                details += " you are scrolling";
+            }
+            else{
+                details += " you are using LEFT clkick";
+            }
+            statusbar.setText(details);
         }
     }
 }
